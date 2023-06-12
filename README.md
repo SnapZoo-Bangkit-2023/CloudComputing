@@ -1,50 +1,49 @@
-# Wacayang, Indonesian Wayang App
+# SnapZoo, Indonesian Zoo App
 
-## Team C22-PC383 Contributors
-* Nauval Muhammad Firdaus (A2005F0453) - [GitHub@NauvalNC](https://github.com/NauvalNC) - Mobile Development - Universitas Bina Nusantara
-* Fahrizza Irham Taufany (M2116L1465) - [GitHub@fahrizzairham](https://github.com/fahrizzairham) - Machine Learning - Institut Teknologi Kalimantan
-* Muhammad Izzah Alfatih (M2012F1299) - [GitHub@IzzahAlfatih](https://github.com/IzzahAlfatih) - Machine Learning - Universitas Telkom
-* Dimas Aji Permadi (C2152F1678) - [GitHub@DimasAji1999](https://github.com/DimasAji1999) - Cloud Computing - Sekolah Tinggi Teknologi Bandung
+## Team C23-PS157 Contributors
+* Angger Muhammad Rizqi (M286DKX3783) - [GitHub@](https://github.com/) - Machine Learning - Universitas Negeri Semarang
+* Bahtiar Hasan (C172DSX3347) - [GitHub@](https://github.com/) - Cloud Computing - Universitas Gunadarma
+* Dyah Nabila Yulianto (M286DSY0323) - [GitHub@](https://github.com/) - Machine Learning - Universitas Negeri Semarang
+* Hafidzurrohman Saifullah (C172DKX4931) - [GitHub@Hafidzurr](https://github.com/Hafidzurr) - Cloud Computing - Universitas Gunadarma
+* Muhammad Prasetyo Nugroho (M282DSX1345) - [GitHub@MuhammadPrasetyoN](https://github.com/MuhammadPrasetyoN) - Machine Learning - Universitas Negeri Malang
+* Natasya Wulandari (A172DSY4927) - [GitHub@natasyaawldr](https://github.com/natasyaawldr) - Mobile Development - Universitas Gunadarma
 
 ## About
-Wacayang is a mobile application that able to identify Indonesian wayang kulit characters. This app uses images uploaded by the user as input, and the information about the name, description, image, and related video about the identified wayang character will be displayed on the app.
+The Snapzoo application is an application based on animal identification through photo activities, which can help zoo visitors learn about wild animals in a more interactive and fun way. Using image recognition technology, users can photograph animals encountered in zoos and the application will identify the type of animal and provide detailed information about the habitat, behavior and unique characteristics of the animal.
 
 ## Presentation and Demo Video
 ```
-https://youtu.be/u1vkZIZzopQ
+https://youtu.be/
 ```
 
 ## Android APK File (Minimum Android SDK 21)
-Link: https://drive.google.com/file/d/17EXgCPaWJuxIVNsX-qUjfb0lgfdHY-oy/view?usp=sharing<br/>
-Alternative Link: https://drive.google.com/file/d/1hXyMuBRKxxPgjiQkxqbVkO4Q_6UlPJuB/view?usp=sharing
+Link: https://drive.google.com/drive/folders/1fnTmL0c1Yma-tWOXsn2Nt3QHWrhdPydq?usp=sharing<br/>
+Alternative Link: 
 
 ## Wireframe && Mock-Up
 ```
-https://www.figma.com/file/JG7eT6Ri8gWlf9k0bcldGp/Wacayang
+https://www.figma.com/file/nU6gWLv3l2B0C3MaX4FFeV/SnapZoo?type=design&node-id=0-1
 ```
 
 ## REST API Documentation
 ```
-https://documenter.getpostman.com/view/20994859/UyxqDPV6
+https://documenter.getpostman.com/
 ```
 
-## Wayang Content References
-This app use wayang images provided by Wikimedia on Public Domain Licences, and videos from YouTube with attribution. For details, please refer to this link.
+## SnapZoo Content References
+This app use Animal images provided by Wikimedia on Public Domain Licences. For details, please refer to this link.
 ```
-https://docs.google.com/spreadsheets/d/1wiKW1goLW4FmGMa_j7DgjjLb4kS6Mh9Tbfq9UIT5xsY/edit?usp=sharing
+https://docs.google.com/spreadsheets/
 ```
 
 ## App Features
-![Feature 1](https://github.com/Wacayang-Bangkit-2022/Wacayang-Documentation/blob/main/assets/feature_1.png)
-![Feature 2](https://github.com/Wacayang-Bangkit-2022/Wacayang-Documentation/blob/main/assets/feature_2.png)
-![Feature 3](https://github.com/Wacayang-Bangkit-2022/Wacayang-Documentation/blob/main/assets/feature_3.png)
-![Feature 4](https://github.com/Wacayang-Bangkit-2022/Wacayang-Documentation/blob/main/assets/feature_4.png)
-* Search various Indonesia wayang by typing on search bar.
-* Upload image from camera or gallery to predict its wayang character using machine learning.
-* Information about Indonesian wayangs inclunding name, story, images, and related wayang shows from local Indonesian puppeter.
-* Personalization to add and remove wayang to/from favorite library.
-* Share thoughts and knowledge through posting comments.
-* Secured account sign in using Google Firebase JWT token.
+![Feature 1](https://github.com/SnapZoo-Bangkit-2023/SnapZoo-Documentation)
+![Feature 2](https://github.com/SnapZoo-Bangkit-2023/SnapZoo-Documentation)
+![Feature 3](https://github.com/SnapZoo-Bangkit-2023/SnapZoo-Documentation)
+![Feature 4](https://github.com/SnapZoo-Bangkit-2023/SnapZoo-Documentation)
+* Search various Animal in Zoo by typing on search bar.
+* Upload image from camera to predict its animal you wanna know.
+* Information about Animal inclunding name, classification, images, and other related about animal.
 
 ## Technology
 * Android Studio IDE to develop the Android application.
@@ -62,7 +61,7 @@ Integration method explanation:
 5. Android app will process the JSON literals and show relevant information to the user.
 
 ## Estimate Google Cloud Platform Pricing
-![GCP Pricing](https://github.com/Wacayang-Bangkit-2022/Wacayang-Documentation/blob/main/assets/cloud_pricing.png)
+![GCP Pricing](https://github.com/SnapZoo-Bangkit-2023/SnapZoo-Documentation)
 
 ## Android Studio Project Installation
 ### Components
@@ -121,7 +120,7 @@ git clone https://github.com/Wacayang-Bangkit-2022/Wacayang_CloudComputing.git
 * Open your Cloud Console, head to `SQL -> MySQL -> Create New Instance`
 * Create new database on your newly created SQL instance.
 * Create necessary tables as showed on this schema below.
-![Database Schema](https://github.com/Wacayang-Bangkit-2022/Wacayang-Documentation/blob/main/assets/schema.png)
+![Database Schema](https://github.com/SnapZoo-Bangkit-2023/SnapZoo-Documentation)
 * Setup your database connection such as `DB_USER`, `DB_PASS` on the `Connection` tab.
 #### 4. Deploy REST API to Cloud Run
 * There will be two service running on Cloud Run.
@@ -158,13 +157,13 @@ https://documenter.getpostman.com/view/20994859/UyxqDPV6
 * Python Version 3.6 or above.
 
 ### Dataset
-* [Wayang Image Dataset](https://www.kaggle.com/datasets/bayuokta/wayang-bagong-cepot-gareng-petruk-semar)
-<p align="center"> <img src="https://github.com/Wacayang-Bangkit-2022/Wacayang-Documentation/blob/main/assets/dataset%20preview.png"></p>
+* [Animal Image Dataset](https://bit.ly/animalimagedatasets)
+<p align="center"> <img src="https://github.com/SnapZoo-Bangkit-2023/SnapZoo-Documentation"></p>
 <p align="center">Dataset Preview</p>
-<p align="center">(Left to right) Bagong, Cepot, Gareng, Petruk, and Semar</p>
+<p align="center">(Left to right) Gajah, Harimau, Monyet, Rusa, and Ular</p>
 
 ### Workflow
-1. [Generate Kaggle API token](https://github.com/Kaggle/kaggle-api#api-credentials) to get `kaggle.json` file
+<!-- 1. [Generate Kaggle API token](https://github.com/Kaggle/kaggle-api#api-credentials) to get `kaggle.json` file
 2. Open the `.ipynb` file in Google Colab or Jupyter Notebook:
    * [Baseline Model (CNN)](https://colab.research.google.com/github/Wacayang-Bangkit-2022/Wacayang-MachineLearning/blob/main/Wayang%20Classifier/Base%20Model%20(Simple%20CNN)/Baseline_Model.ipynb)
    * [DenseNet121](https://colab.research.google.com/github/Wacayang-Bangkit-2022/Wacayang-MachineLearning/blob/main/Wayang%20Classifier/Model%20with%20DenseNet121/Wacayang_DenseNet_Model.ipynb)
@@ -173,4 +172,4 @@ https://documenter.getpostman.com/view/20994859/UyxqDPV6
 3. Click `Copy to Drive`  or Click `File` > `Save a copy in Drive`. This will allow you to run and edit the `.ipynb` file in your own Google Drive account
 4. Upload your `kaggle.json` file (API Token)
 5. Run every cell in the `.ipynb` file
-6. Download the model `.h5` file by left clicking the `.h5`file in the Colab directory (Automatically saved to `/content/` file by Model Checkpoint)
+6. Download the model `.h5` file by left clicking the `.h5`file in the Colab directory (Automatically saved to `/content/` file by Model Checkpoint) -->
