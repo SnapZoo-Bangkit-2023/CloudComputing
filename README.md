@@ -56,11 +56,11 @@ https://docs.google.com/spreadsheets/
 SnapZoo consists of three components, Android, Cloud Computing, and Machine Learning. Basically, to integrate these, Cloud Computing acts as service to bridge communication between Android and Machine Learning. Here is a simple illustration on how our integration method works.
 ![Integration Method](https://github.com/SnapZoo-Bangkit-2023/SnapZoo-Documentation/blob/39e255479826d93f08ade5b1df1e31364df763cf/asset/integration.png)
 Integration method explanation:
-1. Android app send a network request using Retrofit library. This request has JWT token as Authorization header.
-2. Cloud Run acts as service to serve request from the app. It will verify the token first before proceed.
-3. After token is verified, Cloud Run services will access back-end app depending on the request. If it looking for user or wayang information, it will query to SQL database. If it looking for wayang image prediction, then it will post that image to ML model.
-4. After back-end app finished processing, Cloud Run services will return the result as JSON literals to the Android app.
-5. Android app will process the JSON literals and show relevant information to the user.
+1. The Android app allows users to capture a picture of an animal they encounter.
+2. The App Engine, which serves as a service, handles the requests from the app.
+3. Depending on the request, the App Engine services access the REST API. If the request is for animal description information, it queries the pre-existing JSON data in the App Engine. If the request is for animal image prediction, the image is sent to the ML model.
+4. Once the REST API has finished processing, the App Engine services return the results as JSON literals to the Android app. This includes the prediction result and the animal description.
+5. The Android app processes the received JSON literals and displays the relevant information to the user.
 
 ## Estimate Google Cloud Platform Pricing
 ![GCP Pricing](https://github.com/SnapZoo-Bangkit-2023/SnapZoo-Documentation)
