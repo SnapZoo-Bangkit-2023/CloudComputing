@@ -1,7 +1,7 @@
 # SnapZoo, Indonesian Zoo App
 
 ## Team C23-PS157 Contributors
-* Angger Muhammad Rizqi (M286DKX3783) - [GitHub@](https://github.com/) - Machine Learning - Universitas Negeri Semarang
+* Angger Muhammad Rizqi (M286DKX3783) - [GitHub@Anggerm](https://github.com/Anggerm) - Machine Learning - Universitas Negeri Semarang
 * Bahtiar Hasan (C172DSX3347) - [GitHub@bhtiar](https://github.com/bhtiar) - Cloud Computing - Universitas Gunadarma
 * Dyah Nabila Yulianto (M286DSY0323) - [GitHub@dyahnabila-y](https://github.com/dyahnabila-y) - Machine Learning - Universitas Negeri Semarang
 * Hafidzurrohman Saifullah (C172DKX4931) - [GitHub@Hafidzurr](https://github.com/Hafidzurr) - Cloud Computing - Universitas Gunadarma
