@@ -119,17 +119,10 @@ git clone https://github.com/
 * Change The URL Link Animal Image You Already Take it From Firebase Storage or foto folder in Description.json (make sure you open first the image in browser and take the long url).
 #### 2. Try to Running The RestAPI in Local
 * Open The folder RestAPI You Already Clone in Your Visual Studio Code. 
-* Go to `Project Settings -> Service Accounts`
+* Open New Terminal `Install Flask"pip install flask" -> Run the main.py -> "python main.py"` (make sure other library like pillow, and kerastenserflow already install in your local).
 * Choose `Generate New Private Key`, and your private key JSON file will be downloaded.
-* Rename your private key as `serviceAccountKey.json`
-* Copy that file to your cloned project, both inside `wacayang_general_api` and `wacayang_ai_api` folder.
-#### 3. Create SQL Instance on GCP
-* Open your Cloud Console, head to `SQL -> MySQL -> Create New Instance`
-* Create new database on your newly created SQL instance.
-* Create necessary tables as showed on this schema below.
-![Database Schema](https://github.com/SnapZoo-Bangkit-2023/SnapZoo-Documentation)
-* Setup your database connection such as `DB_USER`, `DB_PASS` on the `Connection` tab.
-#### 4. Deploy REST API to Cloud Run
+* Open Postman and test the URLBASE `For Predict put /predict in last URLBASE "Use Post -> key"file"-> and put animal image` and `For Description put /deskripsi in last URLBASE "Use Get -> Send`
+#### 3. Deploy REST API to Cloud Run
 * There will be two service running on Cloud Run.
 * First, go to `wacayang_general_api` folder via terminal. And run `gcloud run deploy` command. Fill the rest of required fields. When it finish, it should shows your deployed service URL.
 * Do the same for `wacayang_ai_api` folder, run `gcloud run deploy` command. Fill the rest of required fields. When it finish, it should shows your deployed service URL.
