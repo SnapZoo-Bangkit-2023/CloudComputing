@@ -118,7 +118,7 @@ git clone https://github.com/
 * Make a folder "foto" in firebase storage and put all foto in that's folder.
 * Change The URL Link Animal Image You Already Take it From Firebase Storage or foto folder in Description.json (make sure you open first the image in browser and take the long url).
 #### 2. Try to Running The RestAPI in Local
-* Open your last Firebase project used for Android Studio project installation
+* Open The folder RestAPI You Already Clone in Your Visual Studio Code. 
 * Go to `Project Settings -> Service Accounts`
 * Choose `Generate New Private Key`, and your private key JSON file will be downloaded.
 * Rename your private key as `serviceAccountKey.json`
