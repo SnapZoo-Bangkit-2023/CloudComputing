@@ -122,14 +122,11 @@ git clone https://github.com/
 * Open New Terminal `Install Flask"pip install flask" -> Run the main.py -> "python main.py"` (make sure other library like pillow, and kerastenserflow already install in your local).
 * Choose `Generate New Private Key`, and your private key JSON file will be downloaded.
 * Open Postman and test the URLBASE `For Predict put /predict in last URLBASE "Use Post -> key"file"-> and put animal image` and `For Description put /deskripsi in last URLBASE "Use Get -> Send`
-#### 3. Deploy REST API to Cloud Run
-* There will be two service running on Cloud Run.
-* First, go to `wacayang_general_api` folder via terminal. And run `gcloud run deploy` command. Fill the rest of required fields. When it finish, it should shows your deployed service URL.
-* Do the same for `wacayang_ai_api` folder, run `gcloud run deploy` command. Fill the rest of required fields. When it finish, it should shows your deployed service URL.
-* These URL will be used by Android app to send network request. Replace the URL on `ApiService.kt` inside your Android Studio project to make it works with your deployed API.
-* Go to your Cloud Console then head to your Cloud Run tab.
-* Open your deployed `wacayang_general_api` service and create new revision by choosing `Edit & Deploy New Revision`.
-* On Variable and Secrets tab, add new variable for `DB_NAME`, `DB_USER`, `DB_PASS`, and `INSTANCE_CONNECTION_NAME`. This necessary so your service can connect to your database. Fill these information based on your SQL database instance, then choose `Deploy` to create new revision.
+#### 3. Deploy REST API to App Engine
+* Put the Folder RESTAPI in your Github(make sure you already change url image from From Firebase Storage or foto folder in Description.json).
+* Enabling App Engine In your Google Console Account.
+* Open Cloud Shell For Clone your Github.
+* Deploy the Folder.
 #### Our Deployed REST API URL
 Please head to this link for our detailed REST API documentation.
 ```
@@ -137,39 +134,35 @@ https://documenter.getpostman.com/view/20994859/UyxqDPV6
 ```
 
 ## Machine Learning Project Installation
-### Components
-* Image Pre-processing
+### Building The Model 
+* Preparing the image from dataset
+* Image pre-processing
 * Image Augmentation
-* Early Stopping
-* Callbacks
-* Model Checkpoint
 * Convolutional Neural Network (CNN)
-* Transfer Learning
-  * DenseNet121
-  * InceptionV3
-  * ResNet152V2
-* Model Evaluate
-* Accuracy and Loss Graph
+* Transfer Learning (InceptionV3)
+* Callback
+* Train the model
+* Plot the Accuracy and Loss
+* Evaluate the model
+* Test the model
+* Save the Model
+
 ### Requirements
 * [Google Colaboratory](https://colab.research.google.com/) or [Jupyter Notebook](https://jupyter.org/install).
-* Kaggle API Token.
-* Latest Tensorflow Version 2.8.2.
+* Animal SnapZoo Dataset.
+* Latest Tensorflow Version 2.12.0.
 * Python Version 3.6 or above.
 
 ### Dataset
-* [Animal Image Dataset](https://bit.ly/animalimagedatasets)
-<p align="center"> <img src="https://github.com/SnapZoo-Bangkit-2023/SnapZoo-Documentation"></p>
+* [Animal Image Dataset](https://www.kaggle.com/datasets/antoreepjana/animals-detection-images-dataset)
+<p align="center"> <img src="https://github.com/SnapZoo-Bangkit-2023/SnapZoo-Documentation/blob/49635f19f2c12cf3bacd3322e32cba612d880718/asset/dataset.png"></p>
 <p align="center">Dataset Preview</p>
-<p align="center">(Left to right) Gajah, Harimau, Monyet, Rusa, and Ular</p>
+<p align="center">(Left to right) badak, gajah, harimau, jerapah, monyet, penguin, rusa, singa, ular, dan zebra</p>
 
 ### Workflow
-<!-- 1. [Generate Kaggle API token](https://github.com/Kaggle/kaggle-api#api-credentials) to get `kaggle.json` file
-2. Open the `.ipynb` file in Google Colab or Jupyter Notebook:
-   * [Baseline Model (CNN)](https://colab.research.google.com/github/Wacayang-Bangkit-2022/Wacayang-MachineLearning/blob/main/Wayang%20Classifier/Base%20Model%20(Simple%20CNN)/Baseline_Model.ipynb)
-   * [DenseNet121](https://colab.research.google.com/github/Wacayang-Bangkit-2022/Wacayang-MachineLearning/blob/main/Wayang%20Classifier/Model%20with%20DenseNet121/Wacayang_DenseNet_Model.ipynb)
-   * [InceptionV3](https://colab.research.google.com/github/Wacayang-Bangkit-2022/Wacayang-MachineLearning/blob/main/Wayang%20Classifier/Model%20with%20InceptionV3/Wacayang_InceptionV3_Model.ipynb)
-   * [ResNet152V2](https://colab.research.google.com/github/Wacayang-Bangkit-2022/Wacayang-MachineLearning/blob/main/Wayang%20Classifier/Model%20with%20ResNet152V2/Wacayang_ResNet_Model.ipynb)
-3. Click `Copy to Drive`  or Click `File` > `Save a copy in Drive`. This will allow you to run and edit the `.ipynb` file in your own Google Drive account
-4. Upload your `kaggle.json` file (API Token)
-5. Run every cell in the `.ipynb` file
-6. Download the model `.h5` file by left clicking the `.h5`file in the Colab directory (Automatically saved to `/content/` file by Model Checkpoint) -->
+1. Get the dataset and save in drive or local.
+2. Open the .ipynb file in Google Colab or Jupyter Notebook.
+3. if using colab, click Copy to Drive or file -> save a copy in Drive. this will allow you to edit and run  the .ipynb file in your drive without edit the original file.
+4. Run every cell in the .ipynb file.
+5. Download and save the .h5 and tflite model in your drive by clicking the cell in ‘Save Model’ part (the model will be automatically save in'/content/drive/MyDrive/YourModel.tflite' path.).
+
