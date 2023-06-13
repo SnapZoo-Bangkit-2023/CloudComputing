@@ -123,10 +123,9 @@ git clone https://github.com/
 * Choose `Generate New Private Key`, and your private key JSON file will be downloaded.
 * Open Postman and test the URLBASE `For Predict put /predict in last URLBASE "Use Post -> key"file"-> and put animal image` and `For Description put /deskripsi in last URLBASE "Use Get -> Send`
 #### 3. Deploy REST API to App Engine
-* Put the Folder RESTAPI in your Github(make sure you already change url image from From Firebase Storage or foto folder in Description.json).
+* Drag and drop RestAPI-SnapZoo folder to Cloud Shell Editoe(make sure you already change url image from From Firebase Storage or foto folder in Description.json and Model ML h5 in same folder with main.py).
 * Enabling App Engine In your Google Console Account.
-* Open Cloud Shell For Clone your Github.
-* Deploy the Folder.
+* Direct to RestApi Folder and Deploy the RestAPI in right directory path.
 #### Our Deployed REST API URL
 Please head to this link for our detailed REST API documentation.
 ```
