@@ -85,7 +85,7 @@ Wacayang Android app is developed using Android Studio IDE. Here are components 
 ### Workflow
 #### 1. Clone The Project and Open It in Android Studio
 ```
-git clone https://github.com/Wacayang-Bangkit-2022/Wacayang-MobileDev.git
+git clone https://github.com/
 ```
 #### 2. Connect the Project to Your Firebase Auth
 * Head to your [Firebase Console](https://console.firebase.google.com/).
