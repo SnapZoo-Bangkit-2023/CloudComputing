@@ -104,15 +104,20 @@ After you open the project, wait for the Gradle to finish building first. Then y
 
 ## Cloud Computing Project Installation
 ### Components and Requirements
-* SQL database running on Google Cloud Platform
-* REST API developed using Node.JS, Express, and Flask.
-* Deployed REST API running as service on Google Cloud Run.
+* Firebase Project and Firebase Storage For Put The Folder Animal Photo.
+* REST API developed using Flask.
+* Deployed REST API running as service on Google App Engine with Model ML(h5) and JSON Description.
 ### Workflow
-#### 1. Clone The Project and Open It in Your Favorite IDE
+#### 1. Clone The Project and Open It in Your Favorite IDE And Make a Firebase Project
 ```
-git clone https://github.com/Wacayang-Bangkit-2022/Wacayang_CloudComputing.git
+https://firebase.google.com/
 ```
-#### 2. Get Service Account Key from Firebase
+```
+git clone https://github.com/
+```
+* Make a folder "foto" in firebase storage and put all foto in that's folder.
+* Change The URL Link Animal Image You Already Take it From Firebase Storage or foto folder in Description.json (make sure you open first the image in browser and take the long url).
+#### 2. Try to Running The RestAPI in Local
 * Open your last Firebase project used for Android Studio project installation
 * Go to `Project Settings -> Service Accounts`
 * Choose `Generate New Private Key`, and your private key JSON file will be downloaded.
