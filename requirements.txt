@@ -1,6 +1,0 @@
-Flask
-pillow
-gunicorn
-tensorflow
-numpy
-request
