@@ -54,7 +54,7 @@ https://docs.google.com/spreadsheets/
 
 ## Integration Method
 SnapZoo consists of three components, Android, Cloud Computing, and Machine Learning. Basically, to integrate these, Cloud Computing acts as service to bridge communication between Android and Machine Learning. Here is a simple illustration on how our integration method works.
-![Integration Method](https://github.com/SnapZoo-Bangkit-2023/SnapZoo-Documentation)
+![Integration Method](https://github.com/SnapZoo-Bangkit-2023/SnapZoo-Documentation/blob/39e255479826d93f08ade5b1df1e31364df763cf/asset/integration.png)
 Integration method explanation:
 1. Android app send a network request using Retrofit library. This request has JWT token as Authorization header.
 2. Cloud Run acts as service to serve request from the app. It will verify the token first before proceed.
