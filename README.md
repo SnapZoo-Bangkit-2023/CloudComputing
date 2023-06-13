@@ -37,9 +37,9 @@ https://docs.google.com/spreadsheets/
 ```
 
 ## App Features
-![Feature 1](https://github.com/SnapZoo-Bangkit-2023/SnapZoo-Documentation)
-![Feature 2](https://github.com/SnapZoo-Bangkit-2023/SnapZoo-Documentation)
-![Feature 3](https://github.com/SnapZoo-Bangkit-2023/SnapZoo-Documentation)
+![Feature 1](https://github.com/SnapZoo-Bangkit-2023/SnapZoo-Documentation/blob/6c5375c83977d400b28fd00b01914052e3e641fa/asset/feature_1.png)
+![Feature 2](https://github.com/SnapZoo-Bangkit-2023/SnapZoo-Documentation/blob/6c5375c83977d400b28fd00b01914052e3e641fa/asset/feature_2.png)
+![Feature 3]()
 ![Feature 4](https://github.com/SnapZoo-Bangkit-2023/SnapZoo-Documentation)
 * Search various Animal in Zoo by typing on search bar.
 * Upload image from camera to predict its animal you wanna know.
