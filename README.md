@@ -41,17 +41,19 @@ https://docs.google.com/spreadsheets/
 ![Feature 2](https://github.com/SnapZoo-Bangkit-2023/SnapZoo-Documentation/blob/6c5375c83977d400b28fd00b01914052e3e641fa/asset/feature_2.png)
 ![Feature 3](https://github.com/SnapZoo-Bangkit-2023/SnapZoo-Documentation/blob/d24cf9c931d94080aae89720ac62d2106c051f22/asset/feature_3.png)
 ![Feature 4](https://github.com/SnapZoo-Bangkit-2023/SnapZoo-Documentation/blob/d24cf9c931d94080aae89720ac62d2106c051f22/asset/feature_4.png)
-* Search various Animal in Zoo by typing on search bar.
+
+* The SnapZoo application is specifically designed for users who want to identify and learn about animals they encounter in the zoo.
 * Upload image from camera to predict its animal you wanna know.
+* Search various Animal in Zoo by typing on search bar.
 * Information about Animal inclunding name, classification, images, and other related about animal.
 
 ## Technology
 * Android Studio IDE to develop the Android application.
-* Google Cloud Platform as deployment platform for REST API, database, and ML model.
+* Google Cloud Platform as deployment platform for REST API and ML model.
 * Tensorflow and Keras to develop, train, and deploy ML model.
 
 ## Integration Method
-Wacayang consists of three components, Android, Cloud Computing, and Machine Learning. Basically, to integrate these, Cloud Computing acts as service to bridge communication between Android and Machine Learning. Here is a simple illustration on how our integration method works.
+SnapZoo consists of three components, Android, Cloud Computing, and Machine Learning. Basically, to integrate these, Cloud Computing acts as service to bridge communication between Android and Machine Learning. Here is a simple illustration on how our integration method works.
 ![Integration Method](https://github.com/SnapZoo-Bangkit-2023/SnapZoo-Documentation)
 Integration method explanation:
 1. Android app send a network request using Retrofit library. This request has JWT token as Authorization header.
