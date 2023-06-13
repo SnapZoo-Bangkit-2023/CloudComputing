@@ -31,7 +31,7 @@ https://documenter.getpostman.com/
 ```
 
 ## SnapZoo Content References
-This app use Animal images provided by Wikimedia on Public Domain Licences. For details, please refer to this link.
+The description in snapzoo, our team prefer to observation data in internet. For details, please refer to this link.
 ```
 https://docs.google.com/spreadsheets/
 ```
@@ -39,8 +39,8 @@ https://docs.google.com/spreadsheets/
 ## App Features
 ![Feature 1](https://github.com/SnapZoo-Bangkit-2023/SnapZoo-Documentation/blob/6c5375c83977d400b28fd00b01914052e3e641fa/asset/feature_1.png)
 ![Feature 2](https://github.com/SnapZoo-Bangkit-2023/SnapZoo-Documentation/blob/6c5375c83977d400b28fd00b01914052e3e641fa/asset/feature_2.png)
-![Feature 3]()
-![Feature 4](https://github.com/SnapZoo-Bangkit-2023/SnapZoo-Documentation)
+![Feature 3](https://github.com/SnapZoo-Bangkit-2023/SnapZoo-Documentation/blob/d24cf9c931d94080aae89720ac62d2106c051f22/asset/feature_3.png)
+![Feature 4](https://github.com/SnapZoo-Bangkit-2023/SnapZoo-Documentation/blob/d24cf9c931d94080aae89720ac62d2106c051f22/asset/feature_4.png)
 * Search various Animal in Zoo by typing on search bar.
 * Upload image from camera to predict its animal you wanna know.
 * Information about Animal inclunding name, classification, images, and other related about animal.
