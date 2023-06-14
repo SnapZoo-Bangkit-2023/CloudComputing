@@ -37,10 +37,10 @@ https://docs.google.com/spreadsheets/
 ```
 
 ## App Features
-![Feature 1](https://github.com/SnapZoo-Bangkit-2023/SnapZoo-Documentation/blob/6c5375c83977d400b28fd00b01914052e3e641fa/asset/feature_1.png)
-![Feature 2](https://github.com/SnapZoo-Bangkit-2023/SnapZoo-Documentation/blob/6c5375c83977d400b28fd00b01914052e3e641fa/asset/feature_2.png)
-![Feature 3](https://github.com/SnapZoo-Bangkit-2023/SnapZoo-Documentation/blob/d24cf9c931d94080aae89720ac62d2106c051f22/asset/feature_3.png)
-![Feature 4](https://github.com/SnapZoo-Bangkit-2023/SnapZoo-Documentation/blob/d24cf9c931d94080aae89720ac62d2106c051f22/asset/feature_4.png)
+![Feature 1](https://github.com/SnapZoo-Bangkit-2023/SnapZoo-Documentation/blob/2fe65213371f1b405807c890dc68bb01843ebcb4/asset/feature_1.png)
+![Feature 2](https://github.com/SnapZoo-Bangkit-2023/SnapZoo-Documentation/blob/2fe65213371f1b405807c890dc68bb01843ebcb4/asset/feature_2.png)
+![Feature 3](https://github.com/SnapZoo-Bangkit-2023/SnapZoo-Documentation/blob/2fe65213371f1b405807c890dc68bb01843ebcb4/asset/feature_3.png)
+![Feature 4](https://github.com/SnapZoo-Bangkit-2023/SnapZoo-Documentation/blob/2fe65213371f1b405807c890dc68bb01843ebcb4/asset/feature_4.png)
 
 * The SnapZoo application is specifically designed for users who want to identify and learn about animals they encounter in the zoo.
 * Upload image from camera to predict its animal you wanna know.
