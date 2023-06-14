@@ -84,19 +84,7 @@ SnapZoo Android app is developed using Android Studio IDE. Here are components t
 ```
 git clone https://github.com/SnapZoo-Bangkit-2023/SnapZoo-MobileDev.git
 ```
-#### 2. Connect the Project to Your Firebase Auth
-* Head to your [Firebase Console](https://console.firebase.google.com/).
-* Then create or use your existing Firebase project.
-* Activate Firebase Authentication feature.
-* Open `Project Settings -> General`, select `New App`, and choose Android app.
-* Fill debug SHA1 fingerprint. You can find this by execute `Gradle -> signingReport` on Android Studio.
-* After the new Firebase app added, you will see your debug SHA1 added to that Firebase app. You can add another SHA1 such as your signed app SHA1. You can find your signed app SHA1 by executing this command on terminal. But, you will need to create your [Keystore](https://developer.android.com/studio/publish/app-signing#generate-key) first
-```
-keytool -list -v -keystore <your keystore path> -alias <your alias>
-```
-* Install [Firebase SDK](https://developer.android.com/studio/write/firebase) to your Android Studio project.
-* Download the `google-service.json` from your Firebase Console, and copy it to the `app` folder of your Android Studio project.
-#### 3. Run or Build The App
+#### 2. Run or Build The App
   run the app, open the project in Android Studio and wait for Gradle to finish building. Then, you can run the application by either clicking "Run 'app'" or using the    shortcut Shift+F10.
 
 ## Cloud Computing Project Installation
