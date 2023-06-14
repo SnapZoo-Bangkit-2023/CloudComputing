@@ -27,7 +27,7 @@ https://www.figma.com/file/nU6gWLv3l2B0C3MaX4FFeV/SnapZoo?type=design&node-id=0-
 
 ## REST API Documentation
 ```
-https://documenter.getpostman.com/
+[https://documenter.getpostman.com/](https://www.postman.com/docking-module-meteorologist-46121606/workspace/snapzoo-api/collection/26452276-61d1bd2d-87b6-402f-a644-1d41ba32edfc?action=share&creator=26452276)
 ```
 
 ## SnapZoo Content References
