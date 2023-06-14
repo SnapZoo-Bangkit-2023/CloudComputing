@@ -54,7 +54,7 @@ https://docs.google.com/spreadsheets/
 
 ## Integration Method
 SnapZoo consists of three components, Android, Cloud Computing, and Machine Learning. Basically, to integrate these, Cloud Computing acts as service to bridge communication between Android and Machine Learning. Here is a simple illustration on how our integration method works.
-![Integration Method](https://github.com/SnapZoo-Bangkit-2023/SnapZoo-Documentation/blob/39e255479826d93f08ade5b1df1e31364df763cf/asset/integration.png)
+![Integration Method](https://github.com/SnapZoo-Bangkit-2023/SnapZoo-Documentation/blob/145eacf6fa6b8aed60850776c5397476dffe36d4/asset/integration!.png)
 Integration method explanation:
 1. The Android app allows users to capture a picture of an animal they encounter.
 2. The App Engine, which serves as a service, handles the requests from the app.
