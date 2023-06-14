@@ -67,25 +67,22 @@ Integration method explanation:
 
 ## Android Studio Project Installation
 ### Components
-Wacayang Android app is developed using Android Studio IDE. Here are components that we used.
-* Developed using [Kotlin](https://kotlinlang.org/) language.
-* Composed by [Activity](https://developer.android.com/reference/android/app/Activity) and [Fragment](https://developer.android.com/guide/fragments).
-* Using [RecycleView](https://developer.android.com/guide/topics/ui/layout/recyclerview) and its adapater for item listing.
-* [CameraX](https://developer.android.com/training/camerax) to utilize mobile camera features including flash, front/back camera, and more.
-* Using [Retrofit](https://square.github.io/retrofit/) library for network request.
-* Using [ExoPlayer](https://exoplayer.dev/) to play videos.
-* [BottomNavigation](https://developer.android.com/reference/com/google/android/material/bottomnavigation/BottomNavigationView) to navigate between main menus (Home, Favorite, and Settings).
-* Connected to [Firebase Auth](https://firebase.google.com/docs/auth) for Google and anonymous sign in.
-* Utilize [LiveData](https://developer.android.com/topic/libraries/architecture/livedata), [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel), and [Repository](https://developer.android.com/codelabs/basic-android-kotlin-training-repository-pattern) pattern for Single Source of Truth (SSOT)
+SnapZoo Android app is developed using Android Studio IDE. Here are components that we used.
+* Utilizing Kotlin language in its development
+* Implementing Bottom Navigation to navigate to Home Screen, Scan Screen, and Search Screen
+* Utilizing RecyclerView to display a list of animals
+* Implementing Search View functionality to search for animals based on user input
+* Integrating CameraX as a camera feature to capture animal images
+* Utilizing Retrofit library for network requests
 
 ### Requirements
-* Android Studio Bumblebee 2021.1.1 Patch 2
-* Minimum Android SDK 21
+* Android Studio Electric Eel | 2022.1.1 Patch 2
+* Minimum Android SDK 21 
 
 ### Workflow
 #### 1. Clone The Project and Open It in Android Studio
 ```
-git clone https://github.com/
+git clone https://github.com/SnapZoo-Bangkit-2023/SnapZoo-MobileDev.git
 ```
 #### 2. Connect the Project to Your Firebase Auth
 * Head to your [Firebase Console](https://console.firebase.google.com/).
@@ -100,8 +97,9 @@ keytool -list -v -keystore <your keystore path> -alias <your alias>
 * Install [Firebase SDK](https://developer.android.com/studio/write/firebase) to your Android Studio project.
 * Download the `google-service.json` from your Firebase Console, and copy it to the `app` folder of your Android Studio project.
 #### 3. Run or Build The App
-After you open the project, wait for the Gradle to finish building first. Then you can choose to build debug app by using `Run -> Run'app'`. Or you can build signed App by head to `Build -> Generate Signed Bundle/APK`.
-
+```
+run the app, open the project in Android Studio and wait for Gradle to finish building. Then, you can run the application by either clicking "Run 'app'" or using the    shortcut Shift+F10.
+```
 ## Cloud Computing Project Installation
 ### Components and Requirements
 * Firebase Project and Firebase Storage For Put The Folder Animal Photo.
