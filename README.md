@@ -97,9 +97,8 @@ keytool -list -v -keystore <your keystore path> -alias <your alias>
 * Install [Firebase SDK](https://developer.android.com/studio/write/firebase) to your Android Studio project.
 * Download the `google-service.json` from your Firebase Console, and copy it to the `app` folder of your Android Studio project.
 #### 3. Run or Build The App
-```
-run the app, open the project in Android Studio and wait for Gradle to finish building. Then, you can run the application by either clicking "Run 'app'" or using the    shortcut Shift+F10.
-```
+  run the app, open the project in Android Studio and wait for Gradle to finish building. Then, you can run the application by either clicking "Run 'app'" or using the    shortcut Shift+F10.
+
 ## Cloud Computing Project Installation
 ### Components and Requirements
 * Firebase Project and Firebase Storage For Put The Folder Animal Photo.
