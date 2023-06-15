@@ -20,7 +20,7 @@ https://youtu.be/
 Link: https://drive.google.com/drive/folders/1fnTmL0c1Yma-tWOXsn2Nt3QHWrhdPydq?usp=sharing<br/>
 Alternative Link: 
 
-## Wireframe && Mock-Up
+## Wireframe & Mock-Up
 ```
 https://www.figma.com/file/nU6gWLv3l2B0C3MaX4FFeV/SnapZoo?type=design&node-id=0-1
 ```
