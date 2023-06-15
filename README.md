@@ -30,12 +30,6 @@ https://www.figma.com/file/nU6gWLv3l2B0C3MaX4FFeV/SnapZoo?type=design&node-id=0-
 https://www.postman.com/docking-module-meteorologist-46121606/workspace/snapzoo-api/collection/26452276-61d1bd2d-87b6-402f-a644-1d41ba32edfc?action=share&creator=26452276
 ```
 
-## SnapZoo Content References
-The description in snapzoo, our team prefer to observation data in internet. For details, please refer to this link.
-```
-https://docs.google.com/spreadsheets/
-```
-
 ## App Features
 ![Feature 1](https://github.com/SnapZoo-Bangkit-2023/SnapZoo-Documentation/blob/2fe65213371f1b405807c890dc68bb01843ebcb4/asset/feature_1.png)
 ![Feature 2](https://github.com/SnapZoo-Bangkit-2023/SnapZoo-Documentation/blob/7999a4a10857d82e956ecb48891a276188619374/asset/feature_2!.png)
