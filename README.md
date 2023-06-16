@@ -57,7 +57,7 @@ Integration method explanation:
 5. The Android app processes the received JSON literals and displays the relevant information to the user.
 
 ## Estimate Google Cloud Platform Pricing
-![GCP Pricing](https://github.com/SnapZoo-Bangkit-2023/SnapZoo-Documentation)
+![GCP Pricing](https://github.com/SnapZoo-Bangkit-2023/SnapZoo-Documentation/blob/0bf7917c6f16f013c44dab1d330867d70e8aeaf4/asset/GCP_pricing.png)
 
 ## Android Studio Project Installation
 ### Components
