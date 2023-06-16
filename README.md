@@ -16,7 +16,7 @@ The Snapzoo application is an application based on animal identification through
 https://youtu.be/
 ```
 ```
-https://drive.google.com/file/d/1jDgUb_BU9XMz5pb18UM5WinCLsHpX-Xg/view?usp=sharing
+https://drive.google.com/file/d/1jHuIgz3R2qQDRKMnDD7d9TuOc3eWEwGY/view
 ```
 
 ## Android APK File (Minimum Android SDK 21)
