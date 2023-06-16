@@ -95,11 +95,12 @@ git clone https://github.com/SnapZoo-Bangkit-2023/SnapZoo-MobileDev.git
 * Deployed REST API running as service on Google App Engine with Model ML(h5) and JSON Description.
 ### Workflow
 #### 1. Clone The Project and Open It in Your Favorite IDE And Make a Firebase Project
-```
-https://firebase.google.com/
-```
+
 ```
 git clone https://github.com/SnapZoo-Bangkit-2023/SnapZoo-CloudComputing.git
+```
+```
+https://firebase.google.com/
 ```
 * Make a folder "foto" in firebase storage and put all foto in that's folder.
 * Change The URL Link Animal Image You Already Take it From Firebase Storage or foto folder in Description.json (make sure you open first the image in browser and take the long url).
