@@ -21,10 +21,10 @@ https://drive.google.com/file/d/1jDgUb_BU9XMz5pb18UM5WinCLsHpX-Xg/view?usp=shari
 
 ## Android APK File (Minimum Android SDK 21)
 ```
-Link: https://drive.google.com/drive/folders/1fnTmL0c1Yma-tWOXsn2Nt3QHWrhdPydq?usp=sharing<br/>
+https://drive.google.com/drive/folders/1fnTmL0c1Yma-tWOXsn2Nt3QHWrhdPydq?usp=sharing
 ```
 ```
-Alternative Link: https://drive.google.com/file/d/1wEgEgqXRE0PMQ8Sx2YOp8X5kZjjquQ5L/view?usp=sharing
+https://drive.google.com/file/d/1wEgEgqXRE0PMQ8Sx2YOp8X5kZjjquQ5L/view?usp=sharing
 ```
 
 ## Wireframe & Mock-Up
