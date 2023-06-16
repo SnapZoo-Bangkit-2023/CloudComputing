@@ -13,7 +13,7 @@ The Snapzoo application is an application based on animal identification through
 
 ## Presentation and Demo Video
 ```
-https://youtu.be/
+https://youtu.be/vakn7XCVNcQ
 ```
 ```
 https://drive.google.com/file/d/1jHuIgz3R2qQDRKMnDD7d9TuOc3eWEwGY/view
