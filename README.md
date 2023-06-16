@@ -99,7 +99,7 @@ git clone https://github.com/SnapZoo-Bangkit-2023/SnapZoo-MobileDev.git
 https://firebase.google.com/
 ```
 ```
-git clone https://github.com/
+git clone https://github.com/SnapZoo-Bangkit-2023/SnapZoo-CloudComputing.git
 ```
 * Make a folder "foto" in firebase storage and put all foto in that's folder.
 * Change The URL Link Animal Image You Already Take it From Firebase Storage or foto folder in Description.json (make sure you open first the image in browser and take the long url).
