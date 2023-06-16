@@ -116,7 +116,7 @@ https://firebase.google.com/
 #### Our Deployed REST API URL
 Please head to this link for our detailed REST API documentation.
 ```
-https://documenter.getpostman.com/view/20994859/UyxqDPV6
+https://www.postman.com/docking-module-meteorologist-46121606/workspace/snapzoo-api/collection/26452276-61d1bd2d-87b6-402f-a644-1d41ba32edfc?action=share&creator=26452276
 ```
 
 ## Machine Learning Project Installation
